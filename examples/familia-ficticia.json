@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "title": "Familia ficticia de ejemplo",
+  "people": [
+    {
+      "id": "I1",
+      "given_names": "Ana María",
+      "surnames": "Navarro Ruiz",
+      "sex": "F",
+      "living": false,
+      "events": [
+        {
+          "type": "birth",
+          "date": "1882-04-12",
+          "precision": "exact",
+          "place": "Villa Ejemplo, España",
+          "status": "documented",
+          "source_ids": ["S1"]
+        }
+      ]
+    },
+    {
+      "id": "I2",
+      "given_names": "Joaquín",
+      "surnames": "Soler Ferrer",
+      "sex": "M",
+      "living": false,
+      "events": [
+        {
+          "type": "birth",
+          "date": "1879",
+          "precision": "year",
+          "place": "Villa Ejemplo, España",
+          "status": "inferred",
+          "source_ids": ["S2"]
+        }
+      ]
+    },
+    {
+      "id": "I3",
+      "given_names": "Teresa",
+      "surnames": "Soler Navarro",
+      "sex": "F",
+      "living": false,
+      "events": [
+        {
+          "type": "birth",
+          "date": "1908-09-03",
+          "precision": "exact",
+          "place": "Villa Ejemplo, España",
+          "status": "documented",
+          "source_ids": ["S3"]
+        }
+      ]
+    }
+  ],
+  "families": [
+    {
+      "id": "F1",
+      "partners": ["I2", "I1"],
+      "children": ["I3"],
+      "status": "documented",
+      "source_ids": ["S3"],
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1904-06-18",
+          "precision": "exact",
+          "place": "Villa Ejemplo, España",
+          "source_ids": ["S2"]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Bautismo ficticio de Ana María Navarro Ruiz",
+      "repository": "Archivo ficticio",
+      "citation": "Libro 1, folio 10, asiento 2"
+    },
+    {
+      "id": "S2",
+      "title": "Matrimonio ficticio Soler-Navarro",
+      "repository": "Archivo ficticio",
+      "citation": "Libro 3, folio 25"
+    },
+    {
+      "id": "S3",
+      "title": "Nacimiento ficticio de Teresa Soler Navarro",
+      "repository": "Registro ficticio",
+      "citation": "Tomo 2, página 41"
+    }
+  ],
+  "hypotheses": []
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "title": "Caso negativo de privacidad",
+  "people": [
+    {
+      "id": "I-DESCONOCIDO",
+      "given_names": "Persona",
+      "surnames": "Ficticia",
+      "living": null,
+      "events": []
+    }
+  ],
+  "families": [],
+  "sources": [],
+  "hypotheses": []
+}

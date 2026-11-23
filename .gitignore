@@ -1,0 +1,8 @@
+work/
+data/private/
+exports/private/
+*.sqlite
+*.db
+__pycache__/
+*.pyc
+.DS_Store

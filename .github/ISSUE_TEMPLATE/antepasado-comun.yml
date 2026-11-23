@@ -1,0 +1,17 @@
+name: Problema con la herramienta
+description: Informar de un error con un ejemplo ficticio
+title: "[Error] "
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Indica el comando y usa solo datos ficticios. No adjuntes árboles, consultas ni resultados familiares.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Resultado esperado y resultado obtenido
+    validations:
+      required: true
